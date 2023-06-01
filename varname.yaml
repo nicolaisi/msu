@@ -1,0 +1,19 @@
+adei:
+    311-RBY-1-5052: db_server=cscryo&db_name=ControlSystem_DPS&db_group=310DPS_Magnetsteuerung&db_mask=42
+rtsp:
+    camera01: http://localhost:1984/stream.html?src=test&mode=webrtc
+    camera02: http://localhost:1984/stream.html?src=test&mode=webrtc
+rest:
+    LineInputToolSelector: http://localhost:18080/Interface/LineInputToolSelector
+    LineInputToolSource: http://localhost:18080/interface/line-input-tool-source
+    LineInputToolActivation: http://localhost:18080/interface/line-input-tool-activation
+    StrobeDuration: http://localhost:18080/device/strobe-duration
+    CameraControlMethod: http://localhost:18080/device/camera-control-method
+    CycleTriggerSource: http://localhost:18080/device/cycle-trigger-source
+    ExposureReadoutOverlap: http://localhost:18080/device/exposure-readout-overlap
+    CycleMinimumPeriod: http://localhost:18080/device/cycle-minimum-period
+    StartOfSequenceTriggerSource: http://localhost:18080/device/start-of-sequence-trigger-source
+    EndOfSequenceTriggerSource: http://localhost:18080/device/end-of-sequence-trigger-source
+    SequenceLength: http://localhost:18080/device/sequence-length
+    StrobeDuration: http://localhost:18080/device/strobe-duration
+    ExposureTime: http://localhost:18080/device/exposure-time

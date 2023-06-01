@@ -1,0 +1,1295 @@
+320-FLW-2-8010:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 694px
+  lesser: '1'
+  linkhtml: 'true'
+  ref: 320-FLW-2-8010
+  top: 165px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                               g/s'
+    weight: '400'
+  width: 126
+320-FLW-2-9026:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                 '
+    weight: '400'
+  height: 34
+  larger: ''
+  left: 1354px
+  lesser: '0.1'
+  linkhtml: 'true'
+  ref: 320-FLW-2-9026
+  top: 504px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                 g/s'
+    weight: '400'
+  width: 126
+320-MOD-0-0001:
+  background_color: rgba(0, 0, 0, 0)
+  cond: '{"1":"","2":"","3":"","4":"","5":"","6":"", "7": "","8": ""}'
+  dict: '{"1":"Bake-Out","2":"Cool-Down","3":"Argon-Preparation","4":"Standby","5":"Standard
+    Operation","6":" Regeneration", "7": "Warm-Up","8": "CKrS Calibration"}'
+  header:
+    size: 28px
+    title: 'Operation Mode                                  '
+    weight: '400'
+  height: 84
+  left: 156px
+  linkhtml: 'true'
+  ref: 320-MOD-0-0001
+  top: 121px
+  trend: 'true'
+  type: integer-to-string
+  unit:
+    size: 28px
+    weight: '700'
+  width: 446
+320-REI-1-5103:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: 'Current:                                                                    '
+    weight: '400'
+  height: 39
+  larger: '200'
+  left: 155px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-REI-1-5103
+  top: 440px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                         A'
+    weight: '400'
+  width: 206
+320-REU-8-1104:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'False'
+  formula: ''
+  header:
+    size: 25
+    title: '|                                                                    '
+    weight: '400'
+  height: 36
+  larger: '0.1'
+  left: 352px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-REU-8-1104
+  top: 376px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                        V'
+    weight: '400'
+  width: 138
+320-REU-8-2102:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'False'
+  formula: ''
+  header:
+    size: 25
+    title: '|                                                                   '
+    weight: '400'
+  height: 38
+  larger: '0.1'
+  left: 351px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-REU-8-2102
+  top: 322px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                   V'
+    weight: '400'
+  width: 134
+320-RFC-2-0103:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'False'
+  formula: ''
+  header:
+    size: 25
+    title: 'CL-cooling:                                                                    '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 154px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RFC-2-0103
+  top: 497px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                       L/h'
+    weight: '400'
+  width: 264
+320-RFC-2-0104:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 290px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RFC-2-0104
+  top: 537px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                       L/h'
+    weight: '400'
+  width: 138
+320-RLI-2-8116:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 33
+  larger: '90'
+  left: 966px
+  lesser: '10'
+  linkhtml: 'true'
+  ref: 320-RLI-2-8116
+  top: 206px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                            %'
+    weight: '400'
+  width: 113
+320-RLI-2-9112:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: '25'
+    title: ''
+    weight: '400'
+  height: 34
+  larger: '90'
+  left: 1347.99px
+  lesser: '10'
+  linkhtml: 'true'
+  ref: 320-RLI-2-9112
+  top: 229.973px
+  trend: 'true'
+  type: data
+  unit:
+    size: '25'
+    title: '%'
+    weight: '400'
+  width: 185
+320-RLI-5-0103:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 38
+  larger: '90'
+  left: 1592px
+  lesser: '10'
+  linkhtml: 'true'
+  ref: 320-RLI-5-0103
+  top: 232px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                            %'
+    weight: '400'
+  width: 108
+320-RPI-2-8110:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                 '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 693px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RPI-2-8110
+  top: 207px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                       bar'
+    weight: '400'
+  width: 130
+320-RPI-2-8125:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                   '
+    weight: '400'
+  height: 30
+  larger: '2.5'
+  left: 969px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RPI-2-8125
+  top: 30px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                             bar'
+    weight: '400'
+  width: 130
+320-RPI-9-0121:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                          '
+    weight: '400'
+  height: 30
+  larger: '2.5'
+  left: 1347px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RPI-9-0121
+  top: 265px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                       bar'
+    weight: '400'
+  width: 120
+320-RPW-4-0104:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'True'
+  formula: ''
+  header:
+    size: 25
+    title: 'Isolation vacuum                                                                    '
+    weight: '400'
+  height: 36
+  larger: ''
+  left: 1405px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RPW-4-0104
+  top: 1018.5px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                    mbar'
+    weight: '400'
+  width: 439
+320-RTP-3-1102:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: '110'
+  left: 191px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-3-1102
+  top: 857px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                K'
+    weight: '400'
+  width: 113
+320-RTP-3-6101:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: '77'
+  left: 1353px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-3-6101
+  top: 857px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                                  K'
+    weight: '400'
+  width: 120
+320-RTP-3-7101:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: '100'
+  left: 1656px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-3-7101
+  top: 859px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                  K'
+    weight: '400'
+  width: 108
+320-RTP-5-0102:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 36
+  larger: '100'
+  left: 1594px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-5-0102
+  top: 269px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                  K'
+    weight: '400'
+  width: 106
+320-RTP-5-9107:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: 'Rad. shield                                                                    '
+    weight: '400'
+  height: 36
+  larger: '100'
+  left: 1544px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-5-9107
+  top: 74px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                      K'
+    weight: '400'
+  width: 236
+320-RTP-5-9111:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: 'Rad. shield                                                                    '
+    weight: '400'
+  height: 109
+  larger: '100'
+  left: 1802px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-5-9111
+  top: 301px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                     K'
+    weight: '400'
+  width: 108
+320-RTP-8-1103:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '- pole:                                                                    '
+    weight: '400'
+  height: 38
+  larger: '350'
+  left: 155px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-8-1103
+  top: 382px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                           K'
+    weight: '400'
+  width: 196
+320-RTP-8-2103:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '+ pole:                                                                    '
+    weight: '400'
+  height: 40
+  larger: '350'
+  left: 154px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTP-8-2103
+  top: 323px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                         K'
+    weight: '400'
+  width: 191
+320-RTT-0-3107:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 28
+    title: '|                                                '
+    weight: '400'
+  height: 31
+  larger: '15'
+  left: 788px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-0-3107
+  top: 648px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                K'
+    weight: '400'
+  width: 140
+320-RTT-0-3110:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 28
+    title: '                                               '
+    weight: '400'
+  height: 30
+  larger: '15'
+  left: 687px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-0-3110
+  top: 650px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                               K'
+    weight: '400'
+  width: 110
+320-RTT-1-1107:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'False'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                          '
+    weight: '400'
+  height: 29
+  larger: '6'
+  left: 183px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-1-1107
+  top: 711px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                          K'
+    weight: '400'
+  width: 110
+320-RTT-1-2107:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: '6'
+  left: 460px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-1-2107
+  top: 713px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                               K'
+    weight: '400'
+  width: 108
+320-RTT-1-3107:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 28
+  larger: '6'
+  left: 654px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-1-3107
+  top: 715px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                            K'
+    weight: '400'
+  width: 109
+320-RTT-1-4107:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 28
+  larger: '6'
+  left: 845px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-1-4107
+  top: 712px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                             K'
+    weight: '400'
+  width: 110
+320-RTT-1-5107:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 33
+  larger: '6'
+  left: 1041px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-1-5107
+  top: 711px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                          K'
+    weight: '400'
+  width: 109
+320-RTT-1-6107:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: '6'
+  left: 1326px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-1-6107
+  top: 711px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                               K'
+    weight: '400'
+  width: 113
+320-RTT-1-7107:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 31
+  larger: '6'
+  left: 1639px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-1-7107
+  top: 713px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                            K'
+    weight: '400'
+  width: 100
+320-RTT-2-8104:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                   '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 774px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-2-8104
+  top: 72px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                   K'
+    weight: '400'
+  width: 111
+320-RTT-2-8109:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 40
+  larger: ''
+  left: 696px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-2-8109
+  top: 123px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                       K'
+    weight: '400'
+  width: 103
+320-RTT-2-8113:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                  '
+    weight: '400'
+  height: 39
+  larger: ''
+  left: 1160px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-2-8113
+  top: 71px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                  K'
+    weight: '400'
+  width: 176
+320-RTT-2-8115:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 29
+  larger: '6.5'
+  left: 964px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTT-2-8115
+  top: 256px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                    K'
+    weight: '400'
+  width: 109
+320-RTY-3-2101:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 36
+  larger: '4.5'
+  left: 476px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTY-3-2101
+  top: 856px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                                     K'
+    weight: '400'
+  width: 113
+320-RTY-3-3101:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 33
+  larger: '4.5'
+  left: 674px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-RTY-3-3101
+  top: 855px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                                                                     K'
+    weight: '400'
+  width: 111
+320-RTY-3-4103:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 33
+  larger: '4.5'
+  left: 870px
+  lesser: '0'
+  linkhtml: 'true'
+  ref: 320-RTY-3-4103
+  top: 856px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                                                K'
+    weight: '400'
+  width: 100
+320-RTY-3-5102:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                '
+    weight: '400'
+  height: 38
+  larger: '8'
+  left: 1065px
+  lesser: '0'
+  linkhtml: 'true'
+  ref: 320-RTY-3-5102
+  top: 852px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                K'
+    weight: '400'
+  width: 106
+320-VAI-2-8001:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                    '
+    weight: '400'
+  height: 31
+  larger: ''
+  left: 789px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-VAI-2-8001
+  top: 8px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                     %'
+    weight: '400'
+  width: 119
+320-VAI-2-8002:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 33
+  larger: ''
+  left: 730px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-VAI-2-8002
+  top: 296px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                       %'
+    weight: '400'
+  width: 110
+320-VAI-2-8020:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                          '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 1165px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-VAI-2-8020
+  top: 7px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                    %'
+    weight: '400'
+  width: 114
+320-VAI-2-9004:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 1047px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-VAI-2-9004
+  top: 459px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                      %'
+    weight: '400'
+  width: 110
+320-VAI-2-9008:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                    '
+    weight: '400'
+  height: 33
+  larger: ''
+  left: 1190px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-VAI-2-9008
+  top: 185px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                      %'
+    weight: '400'
+  width: 110
+320-VAI-2-9009:
+  background_color: rgba(0, 0, 0, 0)
+  condition: ''
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: '                                                                    '
+    weight: '400'
+  height: 29
+  larger: ''
+  left: 1229px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-VAI-2-9009
+  top: 319px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                                      %'
+    weight: '400'
+  width: 116
+320-VAO-3-0003:
+  background_color: rgba(0, 0, 0, 0)
+  height: 50
+  icon: valve
+  left: 1213px
+  linkhtml: 'false'
+  'off': '255'
+  off_condition: offgreater
+  'on': '256'
+  on_condition: onsmaller
+  ref: 320-VAO-3-0003
+  rotate: matrix(1, 0, 0, 1, 0, 0)
+  top: 824.986px
+  trend: 'false'
+  type: icon
+  width: 50
+320-VAO-3-0004:
+  background_color: rgba(0, 0, 0, 0)
+  height: 50
+  icon: valve
+  left: 1842.99px
+  linkhtml: 'false'
+  'off': '255'
+  off_condition: offgreater
+  'on': '256'
+  on_condition: onsmaller
+  ref: 320-VAO-3-0004
+  rotate: matrix(1, 0, 0, 1, 0, 0)
+  top: 824.986px
+  trend: 'false'
+  type: icon
+  width: 50
+320-VMI-2-8007:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'False'
+  formula: ''
+  header:
+    size: 28
+    title: '                                                         '
+    weight: '400'
+  height: 30
+  larger: ''
+  left: 704px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 320-VMI-2-8007
+  top: 460px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                                         %'
+    weight: '400'
+  width: 124
+411-REI-1-1110-0001:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'false'
+  formula: ''
+  header:
+    size: 25
+    title: 'PS Magn.                                          '
+    weight: '400'
+  height: 70
+  larger: ''
+  left: 1801px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 411-REI-1-1110-0001
+  top: 510px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                                           A'
+    weight: '400'
+  width: 110
+620-VAO-3-0002:
+  background_color: rgba(0, 0, 0, 0)
+  height: 50
+  icon: valve
+  left: 28.9861px
+  linkhtml: 'false'
+  'off': '256'
+  off_condition: offgreater
+  'on': '256'
+  on_condition: onsmaller
+  ref: 620-VAO-3-0002
+  rotate: matrix(1, 0, 0, 1, 0, 0)
+  top: 829.993px
+  trend: 'false'
+  type: icon
+  width: 50
+630-RPP-8-5030:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'true'
+  formula: ''
+  header:
+    size: 25
+    title: 'PP1                       '
+    weight: '400'
+  height: 30
+  larger: 1e-8
+  left: 211.984px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 630-RPP-8-5030
+  top: 636.996px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                       mbar'
+    weight: '400'
+  width: 254
+630-RPP-8-6030:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  exponential: 'true'
+  formula: ''
+  header:
+    size: 25
+    title: 'PP2                  '
+    weight: '400'
+  height: 31
+  larger: 1e-9
+  left: 1434px
+  lesser: ''
+  linkhtml: 'true'
+  ref: 630-RPP-8-6030
+  top: 638px
+  trend: 'true'
+  type: data
+  unit:
+    size: 25
+    title: '                  mbar'
+    weight: '400'
+  width: 234
+header_3-k-circuit:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 20
+    title: '3 K circuit                                                                  '
+    weight: '400'
+  height: 30
+  left: 1349px
+  top: 200px
+  type: header
+  width: 99
+header_45-k-circuit:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 20
+    title: '4.5 K circuit                                                                  '
+    weight: '400'
+  height: 28
+  left: 966px
+  top: 160px
+  type: header
+  width: 120
+header_ln-circuit:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 20
+    title: 'LN circuit                                                                 '
+    weight: '400'
+  height: 30
+  left: 1592px
+  top: 195px
+  type: header
+  width: 99
+header_power-supply:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 25
+    title: 'Power supply                                                                  '
+    weight: '700'
+  height: 38
+  left: 155px
+  top: 272px
+  type: header
+  width: 176
+header_v2:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 36
+    title: 'V2   '
+    weight: '400'
+  height: 55
+  left: 31.9727px
+  top: 872.957px
+  type: header
+  width: 75
+header_v3:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 36
+    title: 'V3      '
+    weight: '400'
+  height: 49
+  left: 1215.97px
+  top: 868.965px
+  type: header
+  width: 50
+header_v4:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 36
+    title: 'V4    '
+    weight: '400'
+  height: 50
+  left: 1847.98px
+  top: 867.988px
+  type: header
+  width: 55
+header_water-bath:
+  background_color: rgba(0, 0, 0, 0)
+  header:
+    size: 20
+    title: 'Water Bath                                                                     '
+    weight: '400'
+  height: 21
+  left: 1295px
+  top: 48px
+  type: header
+  width: 110
+virtual_320-REI-1-5103_Bfield:
+  background_color: rgba(0, 0, 0, 0)
+  decimal: '2'
+  formula: 0.0285*x
+  header:
+    size: 25
+    title: '|                                              '
+    weight: 400
+  height: 31
+  larger: '200'
+  left: 372px
+  lesser: ''
+  linkhtml: 'false'
+  ref: 320-REI-1-5103
+  top: 438px
+  trend: 'false'
+  type: data
+  unit:
+    size: 25
+    title: '                                              T'
+    weight: 400
+  width: 130

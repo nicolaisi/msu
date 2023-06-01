@@ -1,0 +1,6 @@
+adei:
+    311-RBY-1-5052: db_server=cscryo&db_name=ControlSystem_DPS&db_group=310DPS_Magnetsteuerung&db_mask=42
+rtsp:
+    camera01: http://localhost:1984/stream.html?src=test&mode=webrtc
+rest:
+    start_seq: http://localhost/start_sequence  

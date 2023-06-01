@@ -1,0 +1,26 @@
+LineInputToolSource:
+  background-color: rgba(0, 0, 0, 0)
+  header:
+    size: 18px
+    title: LineInputToolSource
+    weight: '400'
+  height: 26
+  input:
+    size: 16px
+    weight: '400'
+  left: 209px
+  top: 236px
+  type: rest
+  width: 372
+camera01:
+  height: 100
+  left: 866.997px
+  top: 114.993px
+  type: rtsp
+  width: 100
+camera02:
+  height: 200
+  left: 358px
+  top: 427px
+  type: rtsp
+  width: 200
