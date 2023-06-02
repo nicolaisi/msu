@@ -4,16 +4,10 @@ rtsp:
     camera01: http://localhost:1984/stream.html?src=test&mode=webrtc
     camera02: http://localhost:1984/stream.html?src=test&mode=webrtc
 rest:
-    LineInputToolSelector: http://localhost:18080/Interface/LineInputToolSelector
-    LineInputToolSource: http://localhost:18080/interface/line-input-tool-source
-    LineInputToolActivation: http://localhost:18080/interface/line-input-tool-activation
-    StrobeDuration: http://localhost:18080/device/strobe-duration
-    CameraControlMethod: http://localhost:18080/device/camera-control-method
-    CycleTriggerSource: http://localhost:18080/device/cycle-trigger-source
-    ExposureReadoutOverlap: http://localhost:18080/device/exposure-readout-overlap
-    CycleMinimumPeriod: http://localhost:18080/device/cycle-minimum-period
-    StartOfSequenceTriggerSource: http://localhost:18080/device/start-of-sequence-trigger-source
-    EndOfSequenceTriggerSource: http://localhost:18080/device/end-of-sequence-trigger-source
-    SequenceLength: http://localhost:18080/device/sequence-length
-    StrobeDuration: http://localhost:18080/device/strobe-duration
-    ExposureTime: http://localhost:18080/device/exposure-time
+    resolution_x: http://localhost:5617/dma/resolution_x
+    resolution_y: http://localhost:5617/dma/resolution_y
+    num_images: http://localhost:5617/dma/num_images
+    bits-per-pixel: http://localhost:5617/dma/bits_per_pixel
+    exposure-time: http://localhost:5617/dma/exposure_time
+    frame-rate: http://localhost:5617/dma/frame_rate
+    gain: http://localhost:5617/dma/gain
