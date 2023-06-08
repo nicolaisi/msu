@@ -1,0 +1,24 @@
+title: msu
+port: 8888
+tab:
+    page_name: ["editor", "test"]
+plugins:
+    #adei:
+    #    typedef: adei
+    #    function: adei
+    #    readout: polling
+    #    endpoint: adei 
+    #    env:
+    #        server: http://adei-katrin.kaas.kit.edu/adei/
+    #        poll: 20
+    #        username: katrin
+    #        password: tritium.Otten@2022
+    rtsp:
+        typedef: rtsp
+        function: rtsp
+        readout: streaming
+    rest:
+        typedef: rest
+        function: rest
+        readout: rest
+        endpoint: msu
