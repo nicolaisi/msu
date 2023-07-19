@@ -149,6 +149,7 @@ num_images:
   top: 115px
   type: rest
   width: 194
+  
 resolution_x:
   background-color: rgba(0, 0, 0, 0)
   header:
