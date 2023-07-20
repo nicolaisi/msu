@@ -15,10 +15,9 @@ plugins:
     #        password: tritium.Otten@2022
     rtsp:
         typedef: rtsp
-        function: rtsp
-        readout: streaming
+        function: websocket-streaming
+        template: rtsp
     rest:
         typedef: rest
         function: rest
-        readout: rest
-        endpoint: msu
+        template: rest
