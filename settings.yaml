@@ -19,5 +19,5 @@ plugins:
         template: rtsp
     rest:
         typedef: rest
-        function: rest
+        function: Null
         template: rest

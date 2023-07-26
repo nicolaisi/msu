@@ -13,10 +13,10 @@ adei:
         type: data
 rtsp:
     camera01:
-        source: http://localhost:1984/stream.html?src=test&mode=webrtc
+        source: rtsp://ipepdvcompute3.ipe.kit.edu:5617/test
         type: data
     camera02:
-        source: http://localhost:1984/stream.html?src=test&mode=webrtc
+        source: rtsp://ipepdvcompute3.ipe.kit.edu:5618/test
         type: data
 rest:
     resolution_x:
