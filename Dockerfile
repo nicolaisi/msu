@@ -1,18 +1,14 @@
-FROM alpine:3.1
+# start by pulling the python image
+FROM python:3.9-alpine
 
-RUN apk add --update python py-pip
+EXPOSE 8888
 
 COPY . /tmp
 WORKDIR /tmp
-RUN pip install -r requirements.txt
 
-EXPOSE  8001
 
-ENV BORA_ADEI_SERVER=http://adei-katrin.kaas.kit.edu/adei/
-ENV BORA_POLLING=20
-ENV BORA_PORT=8001
-ENV BORA_TITLE=CPS
-ENV BORA_ADEI_USERNAME=katrin
-ENV BORA_ADEI_PASSWORD=adei.F3rmi!2019
+# install the dependencies and packages in the requirements file
+RUN python -m pip install -r bora/requirements.txt
 
-CMD ["python", "app.py", "-p 8001"]
+
+CMD ["python", "app.py"]
