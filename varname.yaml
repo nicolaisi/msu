@@ -13,7 +13,7 @@ adei:
         type: data
 rtsp:
     camera01:
-        source: rtsp://127.0.0.1:5617/test
+        source: rtsp://ipepdvcompute1.ipe.kit.edu:5617/test
         type: data
     camera02:
         source: rtsp://ipepdvcompute3.ipe.kit.edu:5618/test
