@@ -1,7 +1,9 @@
 # start by pulling the python image
 FROM python:3.9-alpine
 
-EXPOSE 8888
+RUN apk add --update nodejs npm
+
+EXPOSE 8888 2000
 
 COPY . /tmp
 WORKDIR /tmp
