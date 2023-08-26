@@ -1,8 +1,13 @@
 title: msu
-port: 8888
+port: 8000
 tab:
     page_name: ["editor", "test"]
 plugins:
+    # <PLUGIN_NAME>:
+    #    typedef: <yaml_file_in_typedef_folder>
+    #    function: <function_folder_>
+    #    template: <html_stub_in_template_folder>
+    #    js_plugins: <javascript_stub_> 
     #adei:
     #    typedef: adei
     #    function: adei
@@ -13,11 +18,11 @@ plugins:
     #        poll: 20
     #        username: katrin
     #        password: tritium.Otten@2022
-    rtsp:
-        typedef: rtsp
-        function: websocket-streaming
-        template: rtsp
+    #rtsp:
+    #    typedef: rtsp
+    #    function: websocket-streaming
+    #    template: rtsp
     rest:
-        typedef: rest
-        function: rest
-        template: rest
+        typedef: rest_typedef
+        template: rest_template
+        js_plugins: rest_js
