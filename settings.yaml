@@ -8,5 +8,7 @@ plugins:
     #    function: <function_folder_>
     #    template: <html_stub_in_template_folder>
     #    js_plugins: <javascript_stub_> 
+    - box
+    - input
     - rest
     - hls

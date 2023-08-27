@@ -15,6 +15,17 @@ hls:
     camera01:
         source: http://localhost:8000/streams/3cbaef0e4180012603286095abe01b67.m3u8
         type: data
+box:
+    box01:
+        source: null
+        type: data
+input:
+    position_x:
+        source: null
+        type: data
+    position_y:
+        source: null
+        type: data
 rest:
     resolution_x:
         source: http://localhost:5617/dma/resolution_x
