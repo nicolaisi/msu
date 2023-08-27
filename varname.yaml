@@ -11,19 +11,16 @@ adei:
     320-MOD-0-0001:
         source: db_server=cscps&db_name=ControlSystem_CPS&db_group=320_SYS&db_mask=0
         type: data
-rtsp:
+hls:
     camera01:
-        source: rtsp://ipepdvcompute1.ipe.kit.edu:5617/test
-        type: data
-    camera02:
-        source: rtsp://ipepdvcompute3.ipe.kit.edu:5618/test
+        source: http://localhost:8000/streams/3cbaef0e4180012603286095abe01b67.m3u8
         type: data
 rest:
     resolution_x:
-        source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/resolution_x
+        source: http://localhost:5617/dma/resolution_x
         type: data
     resolution_y:
-        source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/resolution_y
+        source: http://localhost:5617/dma/resolution_y
         type: data
     num_images:
         source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/num_images

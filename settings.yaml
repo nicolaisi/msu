@@ -1,5 +1,5 @@
 title: msu
-port: 8000
+port: 8005
 tab:
     page_name: ["editor", "test"]
 plugins:
@@ -8,21 +8,5 @@ plugins:
     #    function: <function_folder_>
     #    template: <html_stub_in_template_folder>
     #    js_plugins: <javascript_stub_> 
-    #adei:
-    #    typedef: adei
-    #    function: adei
-    #    readout: polling
-    #    endpoint: adei 
-    #    env:
-    #        server: http://adei-katrin.kaas.kit.edu/adei/
-    #        poll: 20
-    #        username: katrin
-    #        password: tritium.Otten@2022
-    #rtsp:
-    #    typedef: rtsp
-    #    function: websocket-streaming
-    #    template: rtsp
-    rest:
-        typedef: rest_typedef
-        template: rest_template
-        js_plugins: rest_js
+    - rest
+    - hls
