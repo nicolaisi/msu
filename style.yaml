@@ -3,7 +3,7 @@ bits-per-pixel:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'bits per pix                   '
+    text-name: 'bits per pix                         '
   height: 25
   input:
     font-size: 16px
@@ -18,8 +18,8 @@ box01:
     width: 320px
   height: 240
   input: {}
-  left: 1108px
-  top: 77px
+  left: 1176px
+  top: 990px
   type: box
   width: 320
 camera01:
@@ -28,8 +28,28 @@ camera01:
     width: 640px
   height: 480
   input: {}
-  left: 408px
-  top: 77px
+  left: 442px
+  top: 31px
+  type: hls
+  width: 640
+camera02:
+  div:
+    height: 480px
+    width: 640px
+  height: 480
+  input: {}
+  left: 369px
+  top: 991px
+  type: hls
+  width: 640
+camera03:
+  div:
+    height: 480px
+    width: 640px
+  height: 480
+  input: {}
+  left: 51px
+  top: 535px
   type: hls
   width: 640
 exposure-time:
@@ -37,7 +57,7 @@ exposure-time:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'exposure time             '
+    text-name: 'exposure time                   '
   height: 43
   input:
     font-size: 16px
@@ -51,7 +71,7 @@ frame-rate:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'frame rate           '
+    text-name: 'frame rate                 '
   height: 43
   input:
     font-size: 16px
@@ -65,7 +85,7 @@ gain:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'gain       '
+    text-name: 'gain             '
   height: 25
   input:
     font-size: 16px
@@ -79,7 +99,7 @@ num_images:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'no. images                     '
+    text-name: 'no. images                           '
   height: 43
   input:
     font-size: 16px
@@ -93,7 +113,7 @@ position_x:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'position x     '
+    text-name: 'position x           '
   height: 25
   input:
     font-size: 16px
@@ -107,7 +127,7 @@ position_y:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'position y    '
+    text-name: 'position y          '
   height: 25
   input:
     font-size: 16px
@@ -121,7 +141,7 @@ resolution_x:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'resolution x                            '
+    text-name: 'resolution x                                  '
   height: 38
   input:
     font-size: 16px
@@ -135,7 +155,7 @@ resolution_y:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'resolution y                        '
+    text-name: 'resolution y                              '
   height: 25
   input:
     font-size: 16px
