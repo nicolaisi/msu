@@ -1,13 +1,8 @@
 title: msu
 port: 8005
 tab:
-    page_name: ["editor", "test"]
+    page_name: ["Main", "Notebook", "Config"]
 plugins:
-    # <PLUGIN_NAME>:
-    #    typedef: <yaml_file_in_typedef_folder>
-    #    function: <function_folder_>
-    #    template: <html_stub_in_template_folder>
-    #    js_plugins: <javascript_stub_> 
     - box
     - input
     - rest
