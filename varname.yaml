@@ -26,6 +26,10 @@ input:
     position_y:
         source: null
         type: data
+button:
+    resolution_z:
+        source: http://localhost:5617/api/v1/dma/resolution_z
+        type: data
 rest:
     resolution_x:
         source: http://localhost:5617/api/v1/dma/resolution_x

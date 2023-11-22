@@ -8,4 +8,5 @@ plugins:
     - box
     - input
     - rest
+    - button
     - hls
