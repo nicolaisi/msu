@@ -1,7 +1,9 @@
 title: msu
 port: 8005
-tab:
-    page_name: ["Main", "Notebook", "Config"]
+tabs:
+    main: true
+    notebook: true
+    config: true
 plugins:
     - box
     - input

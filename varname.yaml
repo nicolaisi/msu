@@ -15,12 +15,6 @@ hls:
     camera01:
         source: http://ipepdvcompute1.ipe.kit.edu:8000/streams/e8a0cd4375068451ddad100e665bb710.m3u8
         type: data
-    camera02:
-        source: http://localhost:8000/streams/3cbaef0e4180012603286095abe01b67.m3u8
-        type: data
-    camera03:
-        source: http://ipepdvcompute1.ipe.kit.edu:8000/streams/e8a0cd4375068451ddad100e665bb710.m3u8
-        type: data
 box:
     box01:
         source: null
@@ -34,23 +28,8 @@ input:
         type: data
 rest:
     resolution_x:
-        source: http://localhost:5617/dma/resolution_x
+        source: http://localhost:5617/api/v1/dma/resolution_x
         type: data
     resolution_y:
-        source: http://localhost:5617/dma/resolution_y
-        type: data
-    num_images:
-        source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/num_images
-        type: data
-    bits-per-pixel:
-        source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/bits_per_pixel
-        type: data
-    exposure-time:
-        source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/exposure_time
-        type: data
-    frame-rate:
-        source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/frame_rate
-        type: data
-    gain:
-        source: http://ipepdvcompute1.ipe.kit.edu:8888/dma/gain
+        source: http://localhost:5617/api/v1/dma/resolution_y
         type: data
