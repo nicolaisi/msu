@@ -15,6 +15,10 @@ hls:
     camera01:
         source: http://ipepdvcompute1.ipe.kit.edu:8000/streams/e8a0cd4375068451ddad100e665bb710.m3u8
         type: data
+text:
+    text01:
+        source: null
+        type: data
 box:
     box01:
         source: null

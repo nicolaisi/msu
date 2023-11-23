@@ -12,7 +12,7 @@ position_x:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'position x               '
+    text-name: 'position x                  '
   height: 25
   input:
     font-size: 16px
@@ -26,7 +26,7 @@ position_y:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'position y              '
+    text-name: 'position y                 '
   height: 25
   input:
     font-size: 16px
@@ -40,7 +40,7 @@ resolution_x:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'resolution x                                      '
+    text-name: 'resolution x                                         '
   height: 38
   input:
     font-size: 16px
@@ -54,7 +54,7 @@ resolution_y:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'resolution y                                  '
+    text-name: 'resolution y                                     '
   height: 25
   input:
     font-size: 16px
@@ -68,12 +68,33 @@ resolution_z:
     font-size: 16px
     width: 100px
   div:
-    background-color: rgba(255, 255, 255, 0)
+    background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: yoyo
+    text-name: '
+
+
+
+      yoyo
+
+
+
+      '
   height: 19
   left: 200px
   top: 200px
   type: button
-  width: 132
+  width: 100
+text01:
+  button: {}
+  div:
+    font-size: 28px
+    font-weight: '400'
+    height: 30px
+    text-name: monka
+    width: 100px
+  height: 30
+  left: 145px
+  top: 286px
+  type: text
+  width: 100

@@ -9,4 +9,5 @@ plugins:
     - input
     - rest
     - button
+    - text
     - hls
