@@ -13,7 +13,7 @@ adei:
         type: data
 hls:
     camera01:
-        source: http://ipepdvcompute1.ipe.kit.edu:8000/streams/e8a0cd4375068451ddad100e665bb710.m3u8
+        source: http://localhost:8000/streams/3cbaef0e4180012603286095abe01b67.m3u8
         type: data
 text:
     text01:
