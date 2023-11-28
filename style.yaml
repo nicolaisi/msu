@@ -1,18 +1,19 @@
-box01:
+camera01:
+  button: {}
   div:
-    height: 240px
-    width: 320px
-  height: 240
-  left: 569px
-  top: 131px
-  type: box
-  width: 320
+    height: 100px
+    width: 100px
+  height: 100
+  left: 525px
+  top: 80px
+  type: hls
+  width: 100
 position_x:
   div:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'position x                  '
+    text-name: 'position x                   '
   height: 25
   input:
     font-size: 16px
@@ -26,7 +27,7 @@ position_y:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'position y                 '
+    text-name: 'position y                  '
   height: 25
   input:
     font-size: 16px
@@ -40,7 +41,7 @@ resolution_x:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'resolution x                                         '
+    text-name: 'resolution x                                          '
   height: 38
   input:
     font-size: 16px
@@ -54,7 +55,7 @@ resolution_y:
     background-color: rgba(0, 0, 0, 0)
     font-size: 16px
     font-weight: '400'
-    text-name: 'resolution y                                     '
+    text-name: 'resolution y                                      '
   height: 25
   input:
     font-size: 16px
@@ -75,7 +76,9 @@ resolution_z:
 
 
 
+
       yoyo
+
 
 
 
@@ -88,10 +91,14 @@ resolution_z:
 text01:
   button: {}
   div:
-    font-size: 28px
+    font-size: 16px
     font-weight: '400'
     height: 30px
-    text-name: monka
+    text-name: '
+
+      monka
+
+      '
     width: 100px
   height: 30
   left: 145px
