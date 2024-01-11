@@ -5,9 +5,9 @@ tabs:
     notebook: true
     config: true
 plugins:
-    - box
-    - input
-    - rest
-    - button
-    - text
-    - hls
+    box: null  
+    input: null
+    rest: null
+    button: null
+    text: null
+    hls: null
