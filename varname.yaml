@@ -1,43 +1,39 @@
-adei:
-    311-RBY-1-5052:
-        source: db_server=cscryo&db_name=ControlSystem_DPS&db_group=310DPS_Magnetsteuerung&db_mask=42
-        type: data
-    320-FLW-2-8010:
-        source: db_server=cscps&db_name=ControlSystem_CPS&db_group=320_KRY_Kryo_4K&db_mask=0
-        type: integer-to-string
-    320-FLW-2-9026:
-        source: db_server=cscps&db_name=ControlSystem_CPS&db_group=320_KRY_Kryo_3K&db_mask=0
-        type: data
-    320-MOD-0-0001:
-        source: db_server=cscps&db_name=ControlSystem_CPS&db_group=320_SYS&db_mask=0
-        type: data
-hls:
-    camera01:
-        source: http://ipepdvcompute1.ipe.kit.edu:8000/streams/3cbaef0e4180012603286095abe01b67.m3u8
-        type: data
-text:
-    text01:
-        source: null
-        type: data
-box:
-    box01:
-        source: null
-        type: data
-input:
-    position_x:
-        source: null
-        type: data
-    position_y:
-        source: null
-        type: data
+adei-data:
+  311-RBY-1-5052:
+    source: http://localhost:18080/api/v1/get-data/311-rby-1-5052
+    type: data
+  320-FLW-2-8010:
+    source: http://localhost:18080/api/v1/get-data/320-flw-2-8010
+    type: data
+box: null
 button:
-    resolution_z:
-        source: http://localhost:5617/api/v1/dma/resolution_z
-        type: data
+  button01:
+    source: http://localhost:18080/api/v1/get-data/button01
+    type: data
+hls:
+  camera01:
+    source: http://ipepdvcompute1.ipe.kit.edu:8000/streams/3cbaef0e4180012603286095abe01b67.m3u8
+    type: data
+icon:
+  311-RBY-1-5054:
+    source: http://localhost:18080/api/v1/get-data/311-rby-1-5054
+    type: data
+  320-FLW-2-8012:
+    source: http://localhost:18080/api/v1/get-data/320-flw-2-8012
+    type: data
+input: null
+integer-to-string:
+  311-RBY-1-5053:
+    source: http://localhost:18080/api/v1/get-data/311-rby-1-5053
+    type: data
+  320-FLW-2-8011:
+    source: http://localhost:18080/api/v1/get-data/320-flw-2-8011
+    type: data
 rest:
-    resolution_x:
-        source: http://localhost:5617/api/v1/dma/resolution_x
-        type: data
-    resolution_y:
-        source: http://localhost:5617/api/v1/dma/resolution_y
-        type: data
+  rest01:
+    source: http://localhost:18080/api/v1/get-data/rest01
+    type: data
+  rest02:
+    source: http://localhost:18080/api/v1/get-data/rest02
+    type: data
+text: null

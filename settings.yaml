@@ -6,8 +6,11 @@ tabs:
     config: true
 plugins:
     box: null  
+    adei-data: "http://localhost:18080/api/v1/get-list/adei-data"
     input: null
-    rest: null
-    button: null
+    rest: "http://localhost:18080/api/v1/get-list/rest"
+    button: "http://localhost:18080/api/v1/get-list/button"
     text: null
-    hls: null
+    hls: "http://localhost:18080/api/v1/get-list/hls"
+    integer-to-string: "http://localhost:18080/api/v1/get-list/integer-to-string"
+    icon: "http://localhost:18080/api/v1/get-list/icon"
