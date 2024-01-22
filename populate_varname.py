@@ -30,7 +30,7 @@ for item in settings_data["plugins"]:
     url = settings_data["plugins"][item]
     
     if url is None:
-        data[item] = None
+        #data[item] = None
         continue
     else:
         r = requests.get(url)
