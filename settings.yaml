@@ -5,12 +5,13 @@ tabs:
     notebook: true
     config: true
 plugins:
-    box: null  
-    readonly: "http://localhost:18080/api/v1/get-list/adei-data"
-    input: null
+    #box: null  
+    #readonly: "http://localhost:18080/api/v1/get-list/adei-data"
+    #input: null
     rest: "http://localhost:18080/api/v1/get-list/rest"
-    button: "http://localhost:18080/api/v1/get-list/button"
-    text: null
-    hls: "http://localhost:18080/api/v1/get-list/hls"
-    integer_to_string: "http://localhost:18080/api/v1/get-list/integer-to-string"
-    icon: "http://localhost:18080/api/v1/get-list/icon"
+    #button: "http://localhost:18080/api/v1/get-list/button"
+    #text: null
+    iframe: null
+    #hls: "http://localhost:18080/api/v1/get-list/hls"
+    #integer_to_string: "http://localhost:18080/api/v1/get-list/integer-to-string"
+    #icon: "http://localhost:18080/api/v1/get-list/icon"

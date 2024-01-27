@@ -1,1 +1,38 @@
-{}
+camera01:
+  div:
+    height: 300px
+    width: 300px
+  height: 300
+  input: {}
+  left: 646px
+  top: 103px
+  type: iframe
+  width: 300
+radius:
+  div:
+    background-color: rgba(0, 0, 0, 0)
+    font-size: 16px
+    font-weight: '400'
+    text-name: 'radius    '
+  height: 66
+  input:
+    font-size: 28px
+    width: 100.25px
+  left: 212.998px
+  top: 564.998px
+  type: rest
+  width: 159
+speed:
+  div:
+    background-color: rgba(0, 0, 0, 0)
+    font-size: 16px
+    font-weight: '400'
+    text-name: 'speed    '
+  height: 70
+  input:
+    font-size: 28px
+    width: 100.25px
+  left: 197.992px
+  top: 667.998px
+  type: rest
+  width: 157
