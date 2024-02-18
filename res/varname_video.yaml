@@ -1,0 +1,15 @@
+graph:
+    graph01:
+        source: http://ipepdvcompute1.ipe.kit.edu:5618/coord/get-data/
+        type: data
+iframe:
+    camera01:
+        source: http://ipepdvcompute1.ipe.kit.edu:1984/stream.html?src=test
+        type: data
+rest:
+    radius:
+        source: http://ipepdvcompute1.ipe.kit.edu:5618/video/set-radius/
+        type: data
+    speed:
+        source: http://ipepdvcompute1.ipe.kit.edu:5618/video/set-speed/
+        type: data
