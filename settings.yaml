@@ -2,7 +2,7 @@ title: msu
 port: 8005
 tabs:
     main: true
-    notebook: true
+    notebook: "http://ipepdvcompute1.ipe.kit.edu:8000"
     config: true
 plugins:
     text: null
