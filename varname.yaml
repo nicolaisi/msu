@@ -41,3 +41,7 @@ readonly:
   320-FLW-2-8013:
     source: http://localhost:18080/api/v1/get-data/320-flw-2-8010
     type: data
+adei:
+  320-FLW-2-9026:
+    source: http://adei-katrin.kaas.kit.edu/adei/services/getdata.php?db_server=cscps&db_name=ControlSystem_CPS&db_group=320_KRY_Kryo_3K&db_mask=0&window=3600,-1&experiment=*-*&rt=full&cache=1
+    type: data

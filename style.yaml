@@ -1,9 +1,24 @@
+320-FLW-2-9026:
+  div:
+    background-color: rgba(255, 255, 255, 0)
+    font-size: 28px
+    font-weight: '400'
+    text-name: yoyoyo XXX.XX K
+  height: 32
+  left: 249px
+  top: 193px
+  type: adei
+  width: 227
 text_TL:
   div:
-    font-size: 28px
-    font-weight: '700'
+    font-size: 16px
+    font-weight: '400'
     height: 30.666666px
-    text-name: TL
+    text-name: '
+
+      TL
+
+      '
     width: 99.66666599999999px
   height: 31
   left: 577px

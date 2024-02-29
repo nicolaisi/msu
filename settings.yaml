@@ -1,5 +1,12 @@
 title: msu
 port: 8005
+redis:
+    host: "ipepdvcompute1.ipe.kit.edu"
+    port: 6379
+timer:
+    server: 60000
+    retention: 86400000
+    client: 1000
 tabs:
     main: true
     notebook: "http://ipepdvcompute1.ipe.kit.edu:8000"
@@ -9,3 +16,6 @@ plugins:
     icon: null
     integer_to_string: null
     readonly: null
+    adei: 
+        source: "localhost:5617"
+        timer: True
